@@ -6,6 +6,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="java/hello-world/src/main/java"/>
+	<classpathentry kind="src" path="java/isogram/src/test/java"/>
+	<classpathentry kind="src" path="java/raindrops/src/main/java"/>
+	<classpathentry kind="src" path="java/isogram/src/main/java"/>
+	<classpathentry kind="src" path="java/raindrops/src/test/java"/>
 	<classpathentry kind="src" path="java/two-fer/src/test/java"/>
 	<classpathentry kind="src" path="java/two-fer/src/main/java"/>
 	<classpathentry kind="src" path="java/hello-world/src/test/java"/>
