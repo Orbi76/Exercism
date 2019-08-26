@@ -1,5 +1,31 @@
 class RaindropConverter {
 
+    String convert(int number) {
+        String msg = "";
+        if (number % 3 == 0) {
+            msg += "Pling";
+    // nem ad meg returnt ezért megy tovább az if és figyelembeveszi a következő if-et is.
+   // és csak a végéd adja meg a returnt és igy kiír mindent         
+        }
+
+        if (number % 5 == 0) {
+            msg += "Plang";
+        }
+
+        if (number % 7 == 0) {
+            msg += "Plong";
+        }
+
+        return ("".equals(msg)) ? String.valueOf(number) : msg;
+ //     returne ha "" egyenlo msg-vel akkor legzen ay eredmeny a number értékét stringben egyebkent legyen ay eredmeny msg.  
+    }
+
+}
+
+
+/*
+class RaindropConverter {
+
 	String convert(int number) {
 
 		String betu = "Pling";
@@ -10,9 +36,9 @@ class RaindropConverter {
 		String betu6 = "PlingPlong";
 		String betu7 = "PlingPlangPlong";
 
-		/*
-		 * if (number == 1) { return Integer.toString(number); }
-		 */
+//		/*
+		 if (number == 1) { return Integer.toString(number); }
+//		 
 		if ((number % 3 == 0) && (number % 5 == 0) && (number % 7 == 0)) {
 			return betu7;
 		}
@@ -44,3 +70,4 @@ class RaindropConverter {
 	}
 
 }
+*/
