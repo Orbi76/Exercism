@@ -11,7 +11,7 @@ public class TwoferTest {
     @Before
     public void setup() {
         twofer = new Twofer();
-    }
+    } 
 
     @Test
     public void noNameGiven() {
