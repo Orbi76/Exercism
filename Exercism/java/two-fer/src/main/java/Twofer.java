@@ -9,8 +9,11 @@ class Twofer {
 */		
 		
 //		return String.format("One for %s, one for me.", name == null ?"you" : name);
-		String result = (name == null) ? "One for you, one for me." : "One for " + name + ", one for me.";
-		return result;
+	//	String result = (name == null) ? "One for you, one for me." : "One for " + name + ", one for me.";
+//		String result = "One for "+ (name == null) ? you :  name  +", one for me.";
+		String res = ("One for " + (((name == null) ? "you" : name )+ ", one for me."));
+		System.out.println(res);
+		return res;
 	}
 	
 }
